@@ -1,0 +1,24 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Uploads & Temp Files
+temp_uploads/
+*.pdf
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local model cache
+.fastembed_cache/
